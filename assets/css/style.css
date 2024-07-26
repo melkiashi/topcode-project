@@ -1,0 +1,102 @@
+
+body {
+   background-color:  #582b5e;
+}
+header {
+    height: 54px;
+    width: 1333px;
+    margin-top: 20px;
+    margin-left: 9px;
+    border-radius: 12px;
+    background-color: #1f264047;
+}
+nav {
+    height: 100%;
+    width: 437px;
+    float: right;
+}
+ul {
+    height: 100%;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px;
+    padding-top: 17px;
+}
+li {
+
+    display: inline-block;
+    padding: 0px 15px;
+}
+.bar-menu {
+    height: 100%;
+    width: 25px;
+}
+li a {
+    margin: 0px;
+    text-decoration: none;    
+}
+a h4 {
+    margin: 0px;
+    display: inline;
+    vertical-align: middle;
+    font-family: "Inter", sans-serif;
+    font-size: medium;
+    color: #F5F5F5;
+}
+li button {
+    height: 19px;
+    width: 129px;
+    font-family: "Inter", sans-serif;
+    font-size: x-small;
+    color: #ffff;
+    background-color: rgba(0, 0, 0, 0.096);
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+}
+main {
+    background-image: url(/assets/img/galaxy-space-pixel-art-digital-art-4k-wallpaper-uhdpaper.com-762@0@i.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 524px;
+    width:100% ;
+    text-align: center;
+    border-radius: 102px;
+}
+strong {
+    display: block;
+    margin-top: 17px;
+    font-size: xx-large;
+    font-family: "Ultra", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: linear-gradient( rgb(217, 191, 51), rgb(169, 65, 255));
+    color: transparent;
+    background-clip: text; 
+    padding-top: 30px;
+}
+
+.logo-main {
+    height: 452px;
+    float: right;
+}
+@font-face {
+    font-family: yekan;
+    src: url(/assets/fonts/Yekan.eot);
+    src: url(/assets/fonts/Yekan.svg) format(svg), 
+    url(/assets/fonts/Yekan.ttf) format(ttf) ,
+    url(/assets/fonts/Yekan.woff) format(woff);
+}
+
+#font-title {
+    font-family: "Blaka", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 83px;
+    background-image: linear-gradient( rgb(243, 147, 50), rgb(188, 248, 226));
+    color: transparent;
+    background-clip: text; 
+    line-height: 400px;
+    margin-left: 150px;
+}
