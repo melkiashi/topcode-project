@@ -2,6 +2,7 @@
 body {
     background-color:  #582b5e;
  }
+ /* ...... مروبط به هدر...... */
  header {
      height: 54px;
      width: 1333px;
@@ -10,6 +11,7 @@ body {
      border-radius: 12px;
      background-color: #1f264047;
  }
+ /* ..... مروبط به منو..... */
  nav {
      height: 100%;
      width: 437px;
@@ -53,6 +55,10 @@ body {
      border-radius: 30px;
      border: 1px solid rgba(0, 0, 0, 0.26);
  }
+ /* ..... مروبط به منو..... */
+  /* ...... مروبط به هدر...... */
+
+  /* ............... مروبط به هوم پیچ ........ */
  .main-home {
      background-image: url(/assets/img/galaxy-space-pixel-art-digital-art-4k-wallpaper-uhdpaper.com-762@0@i.jpg);
      background-repeat: no-repeat;
@@ -64,6 +70,20 @@ body {
      text-align: center;
      border-radius: 102px;
  }
+ /* ........... مربوط به لوگو ...... */
+  .logo-main {
+     height: 452px;
+     float: right;
+     opacity: 10%;
+     transition: 700ms;
+     
+ }
+ .logo-main:hover {
+     height: 452px;
+     opacity: 100%;
+ }
+ /* ........... مربوط به لوگو ...... */
+ /* ......... مربوط به تایتل ..... */
  strong {
      display: block;
      margin-top: 17px;
@@ -76,18 +96,7 @@ body {
      background-clip: text; 
      padding-top: 30px;
  }
- 
- .logo-main {
-     height: 452px;
-     float: right;
-     opacity: 10%;
-     transition: 700ms;
-     
- }
- .logo-main:hover {
-     height: 452px;
-     opacity: 100%;
- }
+/* ..... اضافه کردن فونت یکان... */
  @font-face {
      font-family: yekan;
      src: url(assetsfontsYekan.eot);
@@ -95,7 +104,8 @@ body {
      url(assetsfontsYekan.ttf) format(ttf) ,
      url(assetsfontsYekan.woff) format(woff);
  }
- 
+ /* ..... اضافه کردن فونت یکان... */
+ /* ...............فونت تایتل ............. */
  #font-title {
      font-family: Blaka, system-ui;
      font-weight: 400;
@@ -107,6 +117,10 @@ body {
      line-height: 400px;
      margin-left: 150px;
  }
+ /* ...............فونت تایتل ............. */
+  /* ......... مربوط به تایتل ..... */
+ /* ............... مروبط به هوم پیچ ........ */
+  /* .............. مروبوط به فوتر ............... */
  .footer {
      text-align: center;
  }
@@ -121,13 +135,78 @@ body {
      color: #ffffff69;
      margin-top: -30px;
  }
+  /* .............. مروبوط به فوتر ............... */
   /* ............ مربوط به پیج رزومه .........  */
  .main-resume {
-     text-align: center;
+    text-align: center;
+    padding-bottom: 15px;
  }
  .resume-font {
      font-family: Inter, sans-serif;
      font-size: 22px;
      color: #F5F5F5;
-     margin-top: 60px;
  }
+ /* .........flexbox-resume......... */
+  /* ......  مربوط به باکس ها...... */
+ #resume-box {
+    display: flex;
+    height: 1122px;
+    width: 1299px;
+    flex-wrap: wrap;
+    margin-left: 34px;
+    justify-content: space-evenly;
+  }
+ 
+ .resume-box {
+    flex-basis: 112px;
+    height: 332px;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 20px;
+    background-color: #83828A33;
+    border-radius: 11px;
+  }
+ /* ......  مربوط به باکس ها...... */
+ /* .........مربوط به عکس...... */
+ .resume-img {
+    width: 346px;
+ }
+ /* .........مربوط به عکس...... */
+ /* ......  مربوط به فونت های باکس و لوگو...... */
+ /* ......  مربوط به لوگو...... */
+ .resume-item {
+    text-align: left;
+    margin: 0px;
+    margin-top: -5px;
+ }
+ .resume-logo {
+    display: inline-block;
+    width: 33px;
+    border-radius: 50%;
+    margin-top: 19px;
+    margin-right: 6px;
+ }
+  /* ......  مربوط به لوگو...... */
+ /* ...... مربوط به فونت های باکس...... */
+ .resume-logofont {
+    display: inline-block;
+    margin-top: -25px;
+ }
+ .resume-logofont h4 {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 2px;
+    margin-bottom: -10px;
+    color:#F5F5F5;
+ }
+ .resume-logofont h6 {
+    color: #707586;
+    font-family: Inter, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+  margin-top: 21px;margin-top: 21px;
+ }
+ /* ......  مربوط به فونت های باکس و لوگو...... */
