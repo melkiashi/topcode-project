@@ -13,9 +13,12 @@ body {
  }
  /* ..... مروبط به منو..... */
  nav {
+    display: inline-block;
      height: 100%;
      width: 437px;
-     float: right;
+     vertical-align: inherit;
+     margin-left: 600px;
+     
  }
  ul {
      height: 100%;
@@ -47,7 +50,7 @@ body {
  }
  li button {
      height: 19px;
-     width: 129px;
+     width: 122px;
      font-family: Inter, sans-serif;
      font-size: x-small;
      color: #ffff;
@@ -56,6 +59,19 @@ body {
      border: 1px solid rgba(0, 0, 0, 0.26);
  }
  /* ..... مروبط به منو..... */
+ /* .......... مربوط به لوگو های هدر ......... */
+ #header-logo {
+    display: inline-block;
+    height: 100%;
+    margin-left: 45px;
+ }
+ .header-logo {
+    vertical-align:middle;
+ }
+ .header-socialmedia {
+    margin-left: -17px;
+ }
+ /* .......... مربوط به لوگو های هدر ......... */
   /* ...... مروبط به هدر...... */
 
   /* ............... مروبط به هوم پیچ ........ */
@@ -123,6 +139,7 @@ body {
   /* .............. مروبوط به فوتر ............... */
  .footer {
      text-align: center;
+     height: 300px;
  }
  .font-hfooter {
      font-family: Inter, sans-serif;
@@ -134,6 +151,17 @@ body {
      font-size: 18px;
      color: #ffffff69;
      margin-top: -30px;
+ }
+ #footer-box {
+   width:960 ; 
+   height: 960;
+   margin-top: 50px;
+ }
+ .footer.box {
+  display: block;
+ }
+ .footer-smallbox {
+   margin-left: 415px;
  }
   /* .............. مروبوط به فوتر ............... */
   /* ............ مربوط به پیج رزومه .........  */
@@ -151,7 +179,7 @@ body {
  #resume-box {
     display: flex;
     height: 1122px;
-    width: 1299px;
+    width: 1270px;
     flex-wrap: wrap;
     margin-left: 34px;
     justify-content: space-evenly;
@@ -210,3 +238,8 @@ body {
   margin-top: 21px;margin-top: 21px;
  }
  /* ......  مربوط به فونت های باکس و لوگو...... */
+ /* ............ مربوط به پیج رزومه .........  */
+
+ /* ............ مربوط به پیج خدمات .........  */
+ 
+ /* ............ مربوط به پیج خدمات .........  */
