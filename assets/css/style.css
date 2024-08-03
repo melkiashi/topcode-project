@@ -1,11 +1,23 @@
- 
+ /* ..... اضافه کردن فونت یکان... */
+ @font-face {
+     font-family: yekan;
+     src: url(/assets/fonts/Yekan.eot);
+     src: url(/assets/fonts/Yekan.svg) format(svg), 
+     url(/assets/fonts/Yekan.ttf) format(ttf) ,
+     url(/assets/fonts/Yekan.woff) format(woff);
+ }
+ /* ..... اضافه کردن فونت یکان... */
 body {
     background-color:  #582b5e;
  }
  /* ...... مروبط به هدر...... */
  header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8px;
+    margin-right: 8px;
      height: 54px;
-     width: 1333px;
+     width: 100%;
      margin-top: 20px;
      margin-left: 9px;
      border-radius: 12px;
@@ -14,49 +26,33 @@ body {
  /* ..... مروبط به منو..... */
  nav {
     display: inline-block;
-     height: 100%;
-     width: 437px;
-     vertical-align: inherit;
-     margin-left: 600px;
-     
+    height: 100%;
  }
  ul {
-     height: 100%;
-     list-style-type: none;
-     display: inline-block;
-     margin: 0px;
-     padding-top: 17px;
+    height: 100%;
+    width: 420px;
+    margin: 0px;
+    display: inline-flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    text-align: center;
  }
- li {
- 
-     display: inline-block;
-     padding: 0px 15px;
+ .menu-font {
+    text-decoration: none;
+    color: #fbf62f;
+    font-family: yekan;
  }
- .bar-menu {
-     height: 100%;
-     width: 25px;
- }
- li a {
-     margin: 0px;
-     text-decoration: none;    
- }
- a h4 {
-     margin: -19px;
-     display: inline;
-     vertical-align: middle;
-     font-family: Inter, sans-serif;
-     font-size: medium;
-     color: #F5F5F5;
+ .menu-font h4 {
+   margin-top: 10px;
+   margin-bottom: 0px;
+}
+
+ .menu-font:hover {
+   font-size: larger;
  }
  li button {
-     height: 19px;
-     width: 122px;
-     font-family: Inter, sans-serif;
-     font-size: x-small;
-     color: #ffff;
-     background-color: rgba(0, 0, 0, 0.096);
-     border-radius: 30px;
-     border: 1px solid rgba(0, 0, 0, 0.26);
+    margin-top: 19px
  }
  /* ..... مروبط به منو..... */
  /* .......... مربوط به لوگو های هدر ......... */
@@ -112,15 +108,7 @@ body {
      background-clip: text; 
      padding-top: 30px;
  }
-/* ..... اضافه کردن فونت یکان... */
- @font-face {
-     font-family: yekan;
-     src: url(assetsfontsYekan.eot);
-     src: url(assetsfontsYekan.svg) format(svg), 
-     url(assetsfontsYekan.ttf) format(ttf) ,
-     url(assetsfontsYekan.woff) format(woff);
- }
- /* ..... اضافه کردن فونت یکان... */
+
  /* ...............فونت تایتل ............. */
  #font-title {
      font-family: Blaka, system-ui;
@@ -165,6 +153,9 @@ body {
  }
   /* .............. مروبوط به فوتر ............... */
   /* ............ مربوط به پیج رزومه .........  */
+  #main-resume {
+   text-align: center;
+  }
  .main-resume {
     text-align: center;
     padding-bottom: 15px;
@@ -177,9 +168,9 @@ body {
  /* .........flexbox-resume......... */
   /* ......  مربوط به باکس ها...... */
  #resume-box {
-    display: flex;
+   display: inline-flex;
     height: 1122px;
-    width: 1270px;
+    width: 80%;
     flex-wrap: wrap;
     margin-left: 34px;
     justify-content: space-evenly;
@@ -239,7 +230,8 @@ body {
  }
  /* ......  مربوط به فونت های باکس و لوگو...... */
  /* ............ مربوط به پیج رزومه .........  */
-
+ 
+/* ............ مربوط به پیج رزومه .........  */
  /* ............ مربوط به پیج خدمات .........  */
  
  /* ............ مربوط به پیج خدمات .........  */
